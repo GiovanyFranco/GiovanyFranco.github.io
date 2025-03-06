@@ -77,25 +77,25 @@ const About = () => {
       text: "Con el acompañimiento de Giovany logramos realizar proyectos Kaizen y SMED que nos permitieron aumentar el OEE de la planta de 41% a 74% aumentando la rentabilidad de la operación.",
       author: "Juan Carlos Salazar",
       position: "Gerente de Planta (Eterna)",
-      image: "src/img/juan.jpg"
+      image: "./img/juan.jpg"
     },
     {
       text: "Proyecto LEAN Six Sigma de nivel de servicio con un incremento del 70% al 87% y disminución de agotados en las principales regiones del país.",
       author: "Maycorth Zambrano",
       position: "Revenue Management Manager Nacional (Bavaria)",
-      image: "src/img/may.jpg"
+      image: "./img/may.jpg"
     },
     {
       text: "Con su liderazgo durante la operación se logró la optimización de la cadena de suministro, disminución de costos y aumento de nivel de servicio al cliente a través de productos Lean.",
       author: "Dany Cegueri",
       position: "Warehouse Manager (BAT)",
-      image: "src/img/dany.jpg"
+      image: "./img/dany.jpg"
     },
     {
       text: "Giovanny es un gran líder, enfocado en resultados, con una visión holística de los procesos, conectado con el negocio, con una gran capacidad de trabajo en equipo y dominio técnico tanto de la operación, como de la mejora continua.",
       author: "Jorge Paredes",
       position: "Gerente QA (Innovaflora)",
-      image: "src/img/jorge.jpg"
+      image: "./img/jorge.jpg"
     }
   ];
 
@@ -260,7 +260,7 @@ const About = () => {
               >
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-cyan-600/20 to-purple-600/20 rounded-2xl blur-xl opacity-50 transform -rotate-2 group-hover:opacity-70 transition-opacity"></div>
                 <img 
-                  src="src/img/about.jpg" 
+                  src="./img/about.jpg" 
                   alt="Giovany Franco" 
                   className="relative w-full h-auto object-cover rounded-xl border border-gray-700/50 shadow-[0_0_15px_rgba(34,211,238,0.2)] group-hover:shadow-[0_0_25px_rgba(34,211,238,0.4)] transition-shadow duration-300"
                 />

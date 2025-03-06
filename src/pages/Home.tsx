@@ -133,10 +133,10 @@ const Home = () => {
   
   // Empresas destacadas con las que ha trabajado
   const featuredCompanies = [
-    { name: "Eterna", logo: "/src/img/eterna-logo.jpg" },
-    { name: "Innovaflora", logo: "/src/img/innovaflora-logo.jpg" },
-    { name: "BAT", logo: "/src/img/bat-logo.png" },
-    { name: "Rich", logo: "/src/img/Rich-logo.png" }
+    { name: "Eterna", logo: "/./img/eterna-logo.jpg" },
+    { name: "Innovaflora", logo: "/./img/innovaflora-logo.jpg" },
+    { name: "BAT", logo: "/./img/bat-logo.png" },
+    { name: "Rich", logo: "/./img/Rich-logo.png" }
   ];
   
   // Principales áreas de experiencia
@@ -211,7 +211,7 @@ const Home = () => {
               <div className="absolute inset-[3px] rounded-full bg-gradient-to-r from-cyan-500 to-purple-600 p-1">
                 <div className="h-full w-full rounded-full overflow-hidden relative">
                   <img 
-                    src="src/img/about.jpg" 
+                    src="./img/about.jpg" 
                     alt="Giovany Franco" 
                     className="h-full w-full object-cover rounded-full"
                   />
