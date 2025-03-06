@@ -136,7 +136,7 @@ const Home = () => {
     { name: "Eterna", logo: "/./img/eterna-logo.jpg" },
     { name: "Innovaflora", logo: "/./img/innovaflora-logo.jpg" },
     { name: "BAT", logo: "/./img/bat-logo.png" },
-    { name: "Rich", logo: "/./img/Rich-logo.png" }
+    { name: "Rich", logo: "/./img/rich-logo.png" }
   ];
   
   // Principales áreas de experiencia
