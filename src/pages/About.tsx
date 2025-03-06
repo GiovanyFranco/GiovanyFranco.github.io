@@ -172,7 +172,7 @@ const About = () => {
 
   const achievements = [
     { 
-      number: 25, 
+      number: 42, 
       text: "Proyectos de Mejora", 
       icon: <Target className="w-8 h-8" />,
       decorativeIcon: <TrendingUp className="w-16 h-16 opacity-10 absolute top-1/2 right-4 transform -translate-y-1/2" />,
