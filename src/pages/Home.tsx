@@ -50,7 +50,7 @@ const Home = () => {
       hover: 'hover:from-purple-700 hover:to-purple-900', 
       shadow: 'hover:shadow-purple-500/50', 
       label: 'Resume', 
-      href: '/CV-GiovanyFranco.pdf',
+      href: '/cv.pdf',
       download: true
     },
   ];
