@@ -1,16 +1,17 @@
 import { useEffect, useState, useRef } from 'react';
-import { motion, useAnimation, AnimatePresence, useInView } from 'framer-motion';
+import { motion, useAnimation, useInView } from 'framer-motion';
 import { Linkedin, Mail, ChevronDown, Briefcase, Award, TrendingUp, BarChart2, 
-         Check, Users, Target, Zap, Star, ChevronRight, Building, MessageSquare } from 'lucide-react';
+         Check, Users, Target, Zap, ChevronRight, Building } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
   const controls = useAnimation();
-  const [isVisible, setIsVisible] = useState(false);
+  // Fix: Change from destructuring an array with one element to proper useState usage
+  // Option 2: Keep only the setter if you're only setting but not reading
+  const [, setIsVisible] = useState(false);
   
   // Referencias para animaciones basadas en scroll
   const heroRef = useRef(null);
-  const heroInView = useInView(heroRef, { once: true });
   
   const techRef = useRef(null);
   const techInView = useInView(techRef, { once: true, margin: "-100px" });
@@ -287,7 +288,7 @@ const Home = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.8 }}
             >
-              {iconButtons.map(({ Icon, bg, hover, shadow, label, href, download }, index) => (
+              {iconButtons.map(({ Icon, bg, hover, shadow, label, href, download }) => (
                 <motion.a
                   key={label}
                   href={href}
@@ -434,9 +435,9 @@ const Home = () => {
             </h3>
             
             <div className="flex flex-wrap justify-center gap-8 items-center">
-              {featuredCompanies.map((company, index) => (
+              {featuredCompanies.map((company) => (
                 <motion.div
-                  key={index}
+                  key={company.name}
                   className="w-32 h-32 p-4 bg-gray-800/40 backdrop-blur-sm rounded-full border border-gray-700/40 flex items-center justify-center hover:border-cyan-500/20 transition-all duration-500 shadow-lg"
                   whileHover={{ scale: 1.1 }}
                   transition={{ duration: 0.3 }}
@@ -469,9 +470,9 @@ const Home = () => {
           </motion.h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {achievements.map((item, index) => (
+            {achievements.map((item) => (
               <motion.div 
-                key={index} 
+                key={item.title} 
                 className={`bg-gradient-to-br ${item.color} p-0.5 rounded-2xl shadow-lg`}
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}

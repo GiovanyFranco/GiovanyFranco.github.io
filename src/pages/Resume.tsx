@@ -1,9 +1,8 @@
-import { motion, useInView, AnimatePresence } from 'framer-motion';
+import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { 
   Briefcase, GraduationCap, Award, Book, ChevronDown, Calendar, MapPin, Target,
-  ArrowRight, CheckCircle, BarChart2, TrendingUp, Zap, Users, BarChart, PieChart,
-  LineChart, Database, Gauge
+  ArrowRight, CheckCircle, BarChart2, TrendingUp, Zap, Users, Gauge
 } from 'lucide-react';
 
 const Resume = () => {

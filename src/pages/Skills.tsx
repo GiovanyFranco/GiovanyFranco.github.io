@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { TrendingUp, BarChart2, Briefcase } from 'lucide-react';
 

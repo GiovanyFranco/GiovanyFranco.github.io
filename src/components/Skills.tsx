@@ -1,4 +1,3 @@
-import React from 'react'
 import { Code, Database, Globe } from 'lucide-react'
 
 const skills = [
