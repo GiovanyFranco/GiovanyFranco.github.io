@@ -37,7 +37,7 @@ const Skills = () => {
                 <skill.icon size={24} className="text-blue-400 mr-2" />
                 <h3 className="text-xl font-semibold">{skill.name}</h3>
               </div>
-              <ul className="list-disc list-inside">
+              <ul className="list-disc list-inside text-justify">
                 {skill.items.map((item, itemIndex) => (
                   <li key={itemIndex} className="text-gray-300">{item}</li>
                 ))}

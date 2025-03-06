@@ -92,7 +92,7 @@ const About = () => {
       image: "./img/dany.jpg"
     },
     {
-      text: "Giovanny es un gran líder, enfocado en resultados, con una visión holística de los procesos, conectado con el negocio, con una gran capacidad de trabajo en equipo y dominio técnico tanto de la operación, como de la mejora continua.",
+      text: "Giovany es un gran líder, enfocado en resultados, con una visión holística de los procesos, conectado con el negocio, con una gran capacidad de trabajo en equipo y dominio técnico tanto de la operación, como de la mejora continua.",
       author: "Jorge Paredes",
       position: "Gerente QA (Innovaflora)",
       image: "./img/jorge.jpg"
@@ -278,7 +278,7 @@ const About = () => {
               </motion.h2>
               
               <motion.p
-                className="text-gray-300 mb-8 text-lg leading-relaxed"
+                className="text-gray-300 mb-8 text-lg leading-relaxed text-justify"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
@@ -317,7 +317,7 @@ const About = () => {
               </div>
               
               <motion.p
-                className="text-gray-300 leading-relaxed"
+                className="text-gray-300 leading-relaxed text-justify"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.6 }}
@@ -369,7 +369,7 @@ const About = () => {
                       </div>
                     </div>
                     <h3 className="text-xl font-semibold mb-3">{item.title}</h3>
-                    <p className="text-gray-400">{item.description}</p>
+                    <p className="text-gray-400 text-justify">{item.description}</p>
                   </motion.div>
                 ))}
               </div>
@@ -486,7 +486,7 @@ const About = () => {
                     transition={{ duration: 1, delay: 0.2 + (index * 0.1) }}
                   ></motion.div>
                 </div>
-                <p className="text-gray-400 text-sm mt-1">{skill.description}</p>
+                <p className="text-gray-400 text-sm mt-1 text-justify">{skill.description}</p>
               </motion.div>
             ))}
           </div>
@@ -527,7 +527,7 @@ const About = () => {
                       </div>
                     </div>
                     <div className="flex-1">
-                      <p className="text-lg md:text-xl italic mb-6 text-gray-300">"{testimonial.text}"</p>
+                      <p className="text-lg md:text-xl italic mb-6 text-gray-300 text-justify">"{testimonial.text}"</p>
                       <div>
                         <div className="font-semibold text-lg text-cyan-400">{testimonial.author}</div>
                         <div className="text-gray-400">{testimonial.position}</div>

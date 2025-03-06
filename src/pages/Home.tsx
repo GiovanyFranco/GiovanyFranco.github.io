@@ -133,9 +133,9 @@ const Home = () => {
   
   // Empresas destacadas con las que ha trabajado
   const featuredCompanies = [
+    { name: "BAT", logo: "/./img/bat-logo.png" },
     { name: "Eterna", logo: "/./img/eterna-logo.jpg" },
     { name: "Innovaflora", logo: "/./img/innovaflora-logo.jpg" },
-    { name: "BAT", logo: "/./img/bat-logo.png" },
     { name: "Rich", logo: "/./img/rich-logo.png" }
   ];
   
@@ -267,7 +267,7 @@ const Home = () => {
             
             {/* Descripción profesional más impactante */}
             <motion.p
-              className="text-gray-300 max-w-2xl mx-auto mb-8 text-base sm:text-lg"
+              className="text-gray-300 max-w-2xl mx-auto mb-8 text-base sm:text-lg text-justify"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
@@ -535,7 +535,7 @@ const Home = () => {
                 
                 <h3 className="text-xl font-semibold mb-3">{value.title}</h3>
                 
-                <p className="text-gray-300">{value.description}</p>
+                <p className="text-gray-300 text-justify">{value.description}</p>
                 
                 <div className="mt-4 pt-2 flex items-center text-cyan-400 font-medium">
                   <span className="mr-2">Saber más</span>
@@ -557,7 +557,7 @@ const Home = () => {
               <div className="absolute -right-4 -bottom-4 text-8xl text-purple-500/20 font-serif transform rotate-180">"</div>
               
               <blockquote className="relative">
-                <p className="text-xl sm:text-2xl text-center font-light italic text-gray-300 mb-6 max-w-4xl mx-auto">
+                <p className="text-xl sm:text-2xl text-center font-light italic text-gray-300 mb-6 max-w-4xl mx-auto text-justify">
                   Con el liderazgo de Giovany logramos realizar proyectos Kaizen y SMED 
                   que nos permitieron <span className="text-cyan-400 not-italic font-medium">aumentar el OEE de la planta de 41% a 74%</span> incrementando 
                   significativamente la rentabilidad de la operación.

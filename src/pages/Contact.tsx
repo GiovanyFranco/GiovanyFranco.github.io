@@ -95,7 +95,7 @@ const Contact = () => {
           </motion.h1>
           
           <motion.p 
-            className="mt-6 text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto"
+            className="mt-6 text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto text-justify"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}

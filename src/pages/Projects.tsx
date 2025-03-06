@@ -38,7 +38,7 @@ const Projects = () => {
               <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                <p className="text-gray-300 mb-4">{project.description}</p>
+                <p className="text-gray-300 mb-4 text-justify">{project.description}</p>
                 <a href={project.link} className="text-blue-400 hover:text-blue-300 transition">Ver más →</a>
               </div>
             </motion.div>

@@ -55,7 +55,7 @@ const Resume = () => {
       glowColor: "shadow-cyan-500/10",
       iconBg: "bg-cyan-500/20",
       iconColor: "text-cyan-400",
-      skills: ["Lean Manufacturing", "Six Sigma", "Liderazgo"],
+      skills: ["Lean Manufacturing", "Six Sigma", "Liderazgo","S&OP"],
       achievements: [
         { text: "Mejora del 20% en eficiencia del proceso productivo", icon: <BarChart2 size={16} className="text-cyan-400" /> },
         { text: "Reducción del 10% en costos de producción", icon: <TrendingUp size={16} className="text-green-400" /> },
@@ -90,7 +90,7 @@ const Resume = () => {
       ]
     },
     {
-      title: "Shift Process Leader",
+      title: "Process Leader",
       company: "British American Tobacco",
       logo: "https://placehold.co/100?text=BAT", // Usar placeholder en lugar de ruta local
       location: "Caracas, Venezuela",
@@ -228,7 +228,7 @@ const Resume = () => {
                 </h2>
               </div>
               
-              <p className="text-lg text-gray-300 leading-relaxed">
+              <p className="text-lg text-gray-300 leading-relaxed text-justify">
                 Especialista en administración de procesos industriales con enfoque en producción, 
                 calidad y planificación. Líder de proyectos estratégicos de mejoramiento en la cadena 
                 de abastecimiento bajo las filosofías de <span className="text-cyan-400">Lean Manufacturing</span>, 
@@ -402,6 +402,7 @@ const Resume = () => {
             >
               <ul className="space-y-3">
                 {[
+                  "Black Belt Lean Six sigma (2024)",
                   "Yellow Belt Lean Six Sigma (2023)",
                   "Becoming a Six Sigma Black Belt (2020)",
                   "Excel Statistical Process Control (2019)",
@@ -476,7 +477,7 @@ const Resume = () => {
           transition={{ delay: 1, duration: 0.7 }}
         >
           <a 
-            href="/CV-GiovanyFranco.pdf" 
+            href="/cv.pdf" 
             download
             className="relative group"
           >
@@ -487,6 +488,7 @@ const Resume = () => {
             </button>
           </a>
         </motion.div>
+
       </div>
 
       {/* Scroll indicator */}
