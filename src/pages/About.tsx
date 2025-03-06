@@ -77,25 +77,25 @@ const About = () => {
       text: "Con el acompañimiento de Giovany logramos realizar proyectos Kaizen y SMED que nos permitieron aumentar el OEE de la planta de 41% a 74% aumentando la rentabilidad de la operación.",
       author: "Juan Carlos Salazar",
       position: "Gerente de Planta (Eterna)",
-      image: "https://source.unsplash.com/random/100x100?portrait=1"
+      image: "src/img/juan.jpg"
     },
     {
       text: "Proyecto LEAN Six Sigma de nivel de servicio con un incremento del 70% al 87% y disminución de agotados en las principales regiones del país.",
       author: "Maycorth Zambrano",
       position: "Revenue Management Manager Nacional (Bavaria)",
-      image: "https://source.unsplash.com/random/100x100?portrait=2"
+      image: "src/img/may.jpg"
     },
     {
       text: "Con su liderazgo durante la operación se logró la optimización de la cadena de suministro, disminución de costos y aumento de nivel de servicio al cliente a través de productos Lean.",
       author: "Dany Cegueri",
       position: "Warehouse Manager (BAT)",
-      image: "https://source.unsplash.com/random/100x100?portrait=3"
+      image: "src/img/dany.jpg"
     },
     {
       text: "Giovanny es un gran líder, enfocado en resultados, con una visión holística de los procesos, conectado con el negocio, con una gran capacidad de trabajo en equipo y dominio técnico tanto de la operación, como de la mejora continua.",
       author: "Jorge Paredes",
       position: "Gerente QA (Innovaflora)",
-      image: "https://source.unsplash.com/random/100x100?portrait=4"
+      image: "src/img/jorge.jpg"
     }
   ];
 

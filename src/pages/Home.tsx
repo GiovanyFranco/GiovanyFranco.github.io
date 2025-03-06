@@ -133,8 +133,8 @@ const Home = () => {
   // Empresas destacadas con las que ha trabajado
   const featuredCompanies = [
     { name: "Eterna", logo: "/src/img/eterna-logo.jpg" },
-    { name: "BAT", logo: "/src/img/bat-logo.png" },
     { name: "Innovaflora", logo: "/src/img/innovaflora-logo.jpg" },
+    { name: "BAT", logo: "/src/img/bat-logo.png" },
     { name: "Rich", logo: "/src/img/Rich-logo.png" }
   ];
   
@@ -437,14 +437,14 @@ const Home = () => {
               {featuredCompanies.map((company, index) => (
                 <motion.div
                   key={index}
-                  className="w-24 h-24 p-4 bg-gray-800/40 backdrop-blur-sm rounded-lg border border-gray-700/40 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-500 hover:border-cyan-500/20"
+                  className="w-32 h-32 p-4 bg-gray-800/40 backdrop-blur-sm rounded-full border border-gray-700/40 flex items-center justify-center hover:border-cyan-500/20 transition-all duration-500 shadow-lg"
                   whileHover={{ scale: 1.1 }}
                   transition={{ duration: 0.3 }}
                 >
                   <img 
                     src={company.logo} 
                     alt={`${company.name} logo`} 
-                    className="max-h-full max-w-full object-contain"
+                    className={`max-h-20 max-w-20 object-contain ${company.name === "BAT" || company.name === "Rich" ? "max-h-24" : ""}`}
                   />
                 </motion.div>
               ))}
