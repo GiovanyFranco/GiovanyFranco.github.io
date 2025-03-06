@@ -9,7 +9,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <ScrollToTop />
       <div className="min-h-screen bg-gray-900 text-white">
         <Header />
