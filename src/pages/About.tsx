@@ -93,8 +93,8 @@ const About = () => {
     },
     {
       text: "Giovanny es un gran líder, enfocado en resultados, con una visión holística de los procesos, conectado con el negocio, con una gran capacidad de trabajo en equipo y dominio técnico tanto de la operación, como de la mejora continua.",
-      author: "Sandra Martínez",
-      position: "Directora de Operaciones (Innovaflora)",
+      author: "Jorge Paredes",
+      position: "Gerente QA (Innovaflora)",
       image: "https://source.unsplash.com/random/100x100?portrait=4"
     }
   ];
@@ -575,30 +575,6 @@ const About = () => {
         </AnimatedSection>
         
         {/* CTA final */}
-        <AnimatedSection delay={1} className="max-w-4xl mx-auto text-center">
-          <div className="relative p-8 rounded-2xl overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-br from-cyan-900/20 to-purple-900/20 backdrop-blur-sm border border-gray-700/50 rounded-2xl"></div>
-            
-            <div className="relative z-10">
-              <h3 className="text-2xl sm:text-3xl font-semibold mb-6">
-                ¿Listo para transformar su organización?
-              </h3>
-              
-              <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
-                Contacte conmigo para discutir cómo mi experiencia en mejora continua y liderazgo estratégico puede generar resultados medibles en su empresa.
-              </p>
-              
-              <motion.a
-                href="mailto:giovany.franco.gf@gmail.com"
-                className="inline-block py-3 px-8 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-lg text-white font-medium hover:from-cyan-600 hover:to-purple-700 transition-all duration-300"
-                whileHover={{ scale: 1.05, y: -2 }}
-                whileTap={{ scale: 0.98 }}
-              >
-                Programar una consulta
-              </motion.a>
-            </div>
-          </div>
-        </AnimatedSection>
       </div>
       
       {/* Estilos globales para efectos visuales */}
